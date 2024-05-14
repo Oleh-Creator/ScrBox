@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scrollspy Example</title>
+  <!-- Підключення бібліотеки Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="LogoLine">
+      <p style="font-size: 60px; font-weight: 700; color: #8B6A6A;" >RESTURANTS</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <nav id="navbar-example2" class="col-4">
+          <ul class="nav nav-pills flex-column mb-auto" id="navbar">
+            <li class="nav-item">
+              <a class="nav-link" href="#item-1">Item 1</a>
+            </li>
+            <br>
+            <li class="nav-item">
+              <a class="nav-link" href="#item-2">Item 2</a>
+            </li>
+            <br>
+            <li class="nav-item">
+              <a class="nav-link" href="#item-3">Item 3</a>
+            </li>
+            <br>
+          </ul>
+        </nav>
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="scrollspy-example">
+            <div id="item-1">
+              <div class="ItemsLine">
+                <div class="ScrItem">
+                  <img src="./img/swImg1.png" alt="">
+                  <div class="ScrItCont">
+                    <p style="font-size: 18px; font-weight: 700;">Kilinski</p>
+                    <div class="ScrItMap">
+                      <img src="./img/map-pin.png" alt="">
+                      <p>Lviv, ULASA SAMCHUKA, 16</p>
+                    </div>
+                    <br>
+                    <div class="ScrItHeartLine">
+                    <div class="ScrItClock">
+                    <img src="./img/clock.png" alt="">
+                    <div class="ScrItClockText">
+                    <p>MON-SAT 12 PM - 11 PM</p>
+                    <p>SUN 11 AM - 11 PM</p>
+                  </div>
+                  <img src="./img/heart.png" alt="" class="Heart">
+                </div>
+                  </div>
+                  </div>
+                </div>
+                <div class="ScrItem">
+                  <img src="./img/swImg2.png" alt="">
+                  <div class="ScrItCont">
+                    <p style="font-size: 18px; font-weight: 700;">Amadeus</p>
+                    <div class="ScrItMap">
+                      <img src="./img/map-pin.png" alt="">
+                      <p>Lviv, Katedralna Sq., 7</p>
+                    </div>
+                    <br>
+                    <div class="ScrItHeartLine">
+                    <div class="ScrItClock">
+                    <img src="./img/clock.png" alt="">
+                    <div class="ScrItClockText">
+                    <p>9:00 AM - 11:00 PM</p>
+                  </div>
+                  <img src="./img/heart.png" alt="" class="Heart">
+                </div>
+                  </div>
+                  </div>
+                </div>
+                <div class="ScrItem">
+                  <img src="./img/swImg3.png" alt="">
+                  <div class="ScrItCont">
+                    <p style="font-size: 18px; font-weight: 700;">Valentino Restaurant</p>
+                    <div class="ScrItMap">
+                      <img src="./img/map-pin.png" alt="">
+                      <p>Lviv, Ostapa Nyzhankivs'koho St, 20</p>
+                    </div>
+                    <br>
+                    <div class="ScrItHeartLine">
+                    <div class="ScrItClock">
+                    <img src="./img/clock.png" alt="">
+                    <div class="ScrItClockText">
+                    <p>8:00 AM - 10:00 PM</p>
+                  </div>
+                  <img src="./img/heart.png" alt="" class="Heart">
+                </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div id="item-2">
+              <div class="ItemsLine">
+                <div class="ScrItem">
+                  <img src="./img/swImg1.png" alt="">
+                  <div class="ScrItCont">
+                    <p style="font-size: 18px; font-weight: 700;">Kilinski</p>
+                    <div class="ScrItMap">
+                      <img src="./img/map-pin.png" alt="">
+                      <p>Lviv, ULASA SAMCHUKA, 16</p>
+                    </div>
+                    <br>
+                    <div class="ScrItHeartLine">
+                    <div class="ScrItClock">
+                    <img src="./img/clock.png" alt="">
+                    <div class="ScrItClockText">
+                    <p>MON-SAT 12 PM - 11 PM</p>
+                    <p>SUN 11 AM - 11 PM</p>
+                  </div>
+                  <img src="./img/heart.png" alt="" class="Heart">
+                </div>
+                  </div>
+                  </div>
+                </div>
+                <div class="ScrItem">
+                  <img src="./img/swImg2.png" alt="">
+                  <div class="ScrItCont">
+                    <p style="font-size: 18px; font-weight: 700;">Amadeus</p>
+                    <div class="ScrItMap">
+                      <img src="./img/map-pin.png" alt="">
+                      <p>Lviv, Katedralna Sq., 7</p>
+                    </div>
+                    <br>
+                    <div class="ScrItHeartLine">
+                    <div class="ScrItClock">
+                    <img src="./img/clock.png" alt="">
+                    <div class="ScrItClockText">
+                    <p>9:00 AM - 11:00 PM</p>
+                  </div>
+                  <img src="./img/heart.png" alt="" class="Heart">
+                </div>
+                  </div>
+                  </div>
+                </div>
+                <div class="ScrItem">
+                  <img src="./img/swImg3.png" alt="">
+                  <div class="ScrItCont">
+                    <p style="font-size: 18px; font-weight: 700;">Valentino Restaurant</p>
+                    <div class="ScrItMap">
+                      <img src="./img/map-pin.png" alt="">
+                      <p>Lviv, Ostapa Nyzhankivs'koho St, 20</p>
+                    </div>
+                    <br>
+                    <div class="ScrItHeartLine">
+                    <div class="ScrItClock">
+                    <img src="./img/clock.png" alt="">
+                    <div class="ScrItClockText">
+                    <p>8:00 AM - 10:00 PM</p>
+                  </div>
+                  <img src="./img/heart.png" alt="" class="Heart">
+                </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div id="item-3">
+              <div class="ItemsLine">
+                <div class="ScrItem">
+                  <img src="./img/swImg1.png" alt="">
+                  <div class="ScrItCont">
+                    <p style="font-size: 18px; font-weight: 700;">Kilinski</p>
+                    <div class="ScrItMap">
+                      <img src="./img/map-pin.png" alt="">
+                      <p>Lviv, ULASA SAMCHUKA, 16</p>
+                    </div>
+                    <br>
+                    <div class="ScrItHeartLine">
+                    <div class="ScrItClock">
+                    <img src="./img/clock.png" alt="">
+                    <div class="ScrItClockText">
+                    <p>MON-SAT 12 PM - 11 PM</p>
+                    <p>SUN 11 AM - 11 PM</p>
+                  </div>
+                  <img src="./img/heart.png" alt="" class="Heart">
+                </div>
+                  </div>
+                  </div>
+                </div>
+                <div class="ScrItem">
+                  <img src="./img/swImg2.png" alt="">
+                  <div class="ScrItCont">
+                    <p style="font-size: 18px; font-weight: 700;">Amadeus</p>
+                    <div class="ScrItMap">
+                      <img src="./img/map-pin.png" alt="">
+                      <p>Lviv, Katedralna Sq., 7</p>
+                    </div>
+                    <br>
+                    <div class="ScrItHeartLine">
+                    <div class="ScrItClock">
+                    <img src="./img/clock.png" alt="">
+                    <div class="ScrItClockText">
+                    <p>9:00 AM - 11:00 PM</p>
+                  </div>
+                  <img src="./img/heart.png" alt="" class="Heart">
+                </div>
+                  </div>
+                  </div>
+                </div>
+                <div class="ScrItem">
+                  <img src="./img/swImg3.png" alt="">
+                  <div class="ScrItCont">
+                    <p style="font-size: 18px; font-weight: 700;">Valentino Restaurant</p>
+                    <div class="ScrItMap">
+                      <img src="./img/map-pin.png" alt="">
+                      <p>Lviv, Ostapa Nyzhankivs'koho St, 20</p>
+                    </div>
+                    <br>
+                    <div class="ScrItHeartLine">
+                    <div class="ScrItClock">
+                    <img src="./img/clock.png" alt="">
+                    <div class="ScrItClockText">
+                    <p>8:00 AM - 10:00 PM</p>
+                  </div>
+                  <img src="./img/heart.png" alt="" class="Heart">
+                </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+</body>
+</html>
